@@ -1,0 +1,390 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Elegant Hotel Menu</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="container">
+      <div class="logo">
+        <a href="#"><i class="fas fa-utensils"></i> Grand Palace</a>
+      </div>
+      <div class="nav-toggle" id="navToggle">
+        <i class="fas fa-bars"></i>
+      </div>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#" class="active"><i class="fas fa-home"></i> Home</a></li>
+        <li><a href="#appetizers"><i class="fas fa-carrot"></i> Appetizers</a></li>
+        <li><a href="#main-courses"><i class="fas fa-drumstick-bite"></i> Main Courses</a></li>
+        <li><a href="#desserts"><i class="fas fa-ice-cream"></i> Desserts</a></li>
+        <li><a href="#beverages"><i class="fas fa-cocktail"></i> Beverages</a></li>
+        <li><a href="#" class="btn-reserve"><i class="fas fa-calendar-check"></i> Reserve</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <header class="header">
+    <div class="header-content">
+      <h1>Grand Palace Hotel</h1>
+      <p>Exquisite Dining Experience</p>
+      <a href="#" class="btn">View Our Menu</a>
+    </div>
+  </header>
+
+  <section class="special-offer">
+    <div class="container">
+      <div class="special-card">
+        <div class="badge">Special</div>
+        <h2>Weekend Brunch</h2>
+        <p>Enjoy our special weekend brunch with complimentary champagne</p>
+        <p class="price">₹35 per person</p>
+        <p class="time">Available: Saturday & Sunday, 10am - 2pm</p>
+        <a href="#" class="btn btn-outline">Book Now</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="menu-section" id="appetizers">
+    <div class="container">
+      <div class="section-header">
+        <i class="fas fa-carrot section-icon"></i>
+        <h2>Appetizers</h2>
+        <div class="underline"></div>
+      </div>
+      <div class="menu-grid">
+        <div class="menu-item">
+          <div class="menu-item-image">
+            <img src="https://images.unsplash.com/photo-1506354666786-959d6d497f1a?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Bruschetta">
+          </div>
+          <div class="menu-item-info">
+            <div class="menu-item-header">
+              <h3>Bruschetta</h3>
+              <span class="price">₹8.95</span>
+            </div>
+            <p>Toasted bread with fresh tomatoes, garlic, and basil</p>
+            <div class="tags">
+              <span class="tag vegetarian">Vegetarian</span>
+            </div>
+          </div>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-image">
+            <img src="https://images.unsplash.com/photo-1553909489-cd47e0907980?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Spring Rolls">
+          </div>
+          <div class="menu-item-info">
+            <div class="menu-item-header">
+              <h3>Spring Rolls</h3>
+              <span class="price">₹9.50</span>
+            </div>
+            <p>Crispy rolls with vegetables and sweet chili sauce</p>
+            <div class="tags">
+              <span class="tag vegetarian">Vegetarian</span>
+            </div>
+          </div>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-image">
+            <img src="https://th.bing.com/th/id/OIP.9lOfvwCF5Js0NxUT5pK1VAHaE7?w=271&h=187&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Mozzarella Sticks">
+          </div>
+          <div class="menu-item-info">
+            <div class="menu-item-header">
+              <h3>Mozzarella Sticks</h3>
+              <span class="price">₹7.95</span>
+            </div>
+            <p>Crispy fried mozzarella with marinara sauce</p>
+            <div class="tags">
+              <span class="tag vegetarian">Vegetarian</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="menu-section" id="main-courses">
+    <div class="container">
+      <div class="section-header">
+        <i class="fas fa-drumstick-bite section-icon"></i>
+        <h2>Main Courses</h2>
+        <div class="underline"></div>
+      </div>
+      <div class="menu-grid">
+        <div class="menu-item featured">
+          <div class="menu-item-image">
+            <img src="https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Grilled Salmon">
+            <div class="featured-badge">Chef's Choice</div>
+          </div>
+          <div class="menu-item-info">
+            <div class="menu-item-header">
+              <h3>Grilled Salmon</h3>
+              <span class="price">₹24.95</span>
+            </div>
+            <p>Fresh salmon with lemon butter sauce and seasonal vegetables</p>
+            <div class="tags">
+              <span class="tag gluten-free">Gluten Free</span>
+            </div>
+          </div>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-image">
+            <img src="https://images.unsplash.com/photo-1588168333986-5078d3ae3976?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Beef Tenderloin">
+          </div>
+          <div class="menu-item-info">
+            <div class="menu-item-header">
+              <h3>Beef Tenderloin</h3>
+              <span class="price">₹32.95</span>
+            </div>
+            <p>Juicy beef with red wine reduction and mashed potatoes</p>
+          </div>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-image">
+            <img src="https://images.unsplash.com/photo-1533640924469-f04e06f8898d?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Chicken Alfredo">
+          </div>
+          <div class="menu-item-info">
+            <div class="menu-item-header">
+              <h3>Chicken Alfredo</h3>
+              <span class="price">₹22.50</span>
+            </div>
+            <p>Grilled chicken with creamy Alfredo sauce and fettuccine</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="menu-section" id="desserts">
+    <div class="container">
+      <div class="section-header">
+        <i class="fas fa-ice-cream section-icon"></i>
+        <h2>Desserts</h2>
+        <div class="underline"></div>
+      </div>
+      <div class="menu-grid">
+        <div class="menu-item">
+          <div class="menu-item-image">
+            <img src="https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Tiramisu">
+          </div>
+          <div class="menu-item-info">
+            <div class="menu-item-header">
+              <h3>Tiramisu</h3>
+              <span class="price">₹7.95</span>
+            </div>
+            <p>Classic Italian coffee-flavored dessert</p>
+          </div>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-image">
+            <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Chocolate Lava Cake">
+          </div>
+          <div class="menu-item-info">
+            <div class="menu-item-header">
+              <h3>Chocolate Lava Cake</h3>
+              <span class="price">₹8.50</span>
+            </div>
+            <p>Warm chocolate cake with molten center and vanilla ice cream</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="menu-section" id="beverages">
+    <div class="container">
+      <div class="section-header">
+        <i class="fas fa-cocktail section-icon"></i>
+        <h2>Beverages</h2>
+        <div class="underline"></div>
+      </div>
+      <div class="menu-grid">
+        <div class="menu-item">
+          <div class="menu-item-image">
+            <img src="https://images.unsplash.com/photo-1566417713940-fe7c737a9ef2?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="House Wine">
+          </div>
+          <div class="menu-item-info">
+            <div class="menu-item-header">
+              <h3>House Wine</h3>
+              <span class="price">₹12.00</span>
+            </div>
+            <p>Red or white wine selection</p>
+          </div>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-image">
+            <img src="https://images.unsplash.com/photo-1582106245687-cbb466a9f07f?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Signature Cocktail">
+          </div>
+          <div class="menu-item-info">
+            <div class="menu-item-header">
+              <h3>Signature Cocktail</h3>
+              <span class="price">₹16.50</span>
+            </div>
+            <p>Crafted with premium spirits and fresh ingredients</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="reservation-modal" id="reservationModal">
+    <div class="modal-content">
+      <span class="close-modal">&times;</span>
+      <h2>Make a Reservation</h2>
+      <form id="reservationForm">
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" id="name" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" required>
+        </div>
+        <div class="form-group">
+          <label for="phone">Phone</label>
+          <input type="tel" id="phone" required>
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="date">Date</label>
+            <input type="date" id="date" required>
+          </div>
+          <div class="form-group">
+            <label for="time">Time</label>
+            <input type="time" id="time" required>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="guests">Number of Guests</label>
+          <select id="guests" required>
+            <option value="">Select</option>
+            <option value="1">1 Person</option>
+            <option value="2">2 People</option>
+            <option value="3">3 People</option>
+            <option value="4">4 People</option>
+            <option value="5">5 People</option>
+            <option value="6">6+ People</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="specialRequests">Special Requests</label>
+          <textarea id="specialRequests" rows="3"></textarea>
+        </div>
+        <button type="submit" class="btn">Book Table</button>
+      </form>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-info">
+          <h3><i class="fas fa-utensils"></i> Grand Palace Hotel</h3>
+          <p><i class="fas fa-map-marker-alt"></i> GCE Avenue, Salem</p>
+          <p><i class="fas fa-phone"></i> (+91) 63456-78908</p>
+          <p><i class="fas fa-envelope"></i> hotelgrandpalace018@gmail.com</p>
+        </div>
+        <div class="footer-hours">
+          <h3>Opening Hours</h3>
+          <p>Monday - Friday: 7am - 11pm</p>
+          <p>Saturday - Sunday: 8am - 12am</p>
+        </div>
+        <div class="footer-social">
+          <h3>Follow Us</h3>
+          <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-tripadvisor"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+      <p>&copy; 2025 Grand Palace Hotel. All rights reserved.</p>
+    </div>
+  </div>
+</footer>
+
+<a href="#" class="scroll-top" id="scrollTop">
+  <i class="fas fa-chevron-up"></i>
+</a>
+
+<script>
+  // Toggle navigation menu for mobile
+  document.getElementById('navToggle').addEventListener('click', function() {
+    document.getElementById('navLinks').classList.toggle('active');
+  });
+
+  // Reservation modal
+  const modal = document.getElementById('reservationModal');
+  const reserveBtn = document.querySelector('.btn-reserve');
+  const closeBtn = document.querySelector('.close-modal');
+
+  reserveBtn.addEventListener('click', function() {
+    modal.style.display = 'flex';
+    document.body.style.overflow = 'hidden';
+  });
+
+  closeBtn.addEventListener('click', function() {
+    modal.style.display = 'none';
+    document.body.style.overflow = 'auto';
+  });
+
+  window.addEventListener('click', function(event) {
+    if (event.target == modal) {
+      modal.style.display = 'none';
+      document.body.style.overflow = 'auto';
+    }
+  });
+
+  // Scroll to top button
+  const scrollTopBtn = document.getElementById('scrollTop');
+
+  window.addEventListener('scroll', function() {
+    if (window.pageYOffset > 300) {
+      scrollTopBtn.classList.add('show');
+    } else {
+      scrollTopBtn.classList.remove('show');
+    }
+  });
+
+  scrollTopBtn.addEventListener('click', function(e) {
+    e.preventDefault();
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
+  });
+
+  // Form submission
+  document.getElementById('reservationForm').addEventListener('submit', function(e) {
+    e.preventDefault();
+    alert('Reservation submitted successfully! We will contact you shortly to confirm.');
+    modal.style.display = 'none';
+    document.body.style.overflow = 'auto';
+    this.reset();
+  });
+
+  // Smooth scrolling for navigation links
+  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+      if (this.getAttribute('href') !== '#') {
+        e.preventDefault();
+        const target = document.querySelector(this.getAttribute('href'));
+        if (target) {
+          window.scrollTo({
+            top: target.offsetTop - 70,
+            behavior: 'smooth'
+          });
+          document.getElementById('navLinks').classList.remove('active');
+        }
+      }
+    });
+  });
+</script>
+</body>
+</html>
